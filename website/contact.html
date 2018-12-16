@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact - Brooklyn Outdoor Film Festival</title>
+        <!-- Icon -->
+        <link type="image/png" rel="icon" href="assets/images/icon.png">
+        <!-- Custom CSS -->
+        <link type="text/css" rel="stylesheet" href="assets/css/master.css">
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link type="text/css" rel="stylesheet" href="assets/css/fontawesome.min.css">
+    </head>
+    <body>
+        <!-- start main -->
+        <div class="container-fluid main">
+            <header>
+                <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-light">
+                    <a id="logo" class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" width="100" alt="Logo WebBot">
+                    </a>
+
+                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="flims.html">Flims</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/contact.jpg" alt="Contact Us">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Contact Us</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <section id="contact">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-3">
+                            <i class="fas fa-map"></i>
+                            <p>Brooklyn, NY, USA</p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <i class="fas fa-envelope"></i>
+                            <p>hello@boff.com</p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 210-498-2722</p>
+                        </div>
+                    </div>
+
+                    <div class="map">
+                        <h4>Visit us</h4>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.064372490105!2d-73.98037718433666!3d40.57434245396198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244344ec8cedd%3A0xf4639d6725a7d1ca!2s1025+Riegelmann+Boardwalk%2C+Brooklyn%2C+NY+11224%2C+USA!5e1!3m2!1sen!2sml!4v1544802754068" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="row register">
+                    <div class="col-md-6">
+                        <h4>It's completely free! Don't wait pre-register now! Shows are open and free to everyone, but seats are limited, so register early to ensure your spot!</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="firstname">First name</label>
+                                <input id="firstname" class="form-control" type="text" name="firstname" placeholder="Ex: Joe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastname">Last name</label>
+                                <input id="lastname" class="form-control" type="text" name="lastname" placeholder="Ex: Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input id="email" class="form-control" type="text" name="email" placeholder="Ex: joe.doe@boff.com">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="footer">
+                    <!-- <h4>Hire Us</h4> -->
+                    <p class="desc"><a href="http://www.brooklyn-usa.org/">Brooklyn City</a> | <a href="https://www.brooklynbridgepark.org/">Brooklyn Bridge Park</a></p>
+                    <p class="phone">+1 210-498-2722</p>
+                    <p class="email">hello@boff.com</p>
+                    <ul class="social">
+                        <li> <a href="https://twitter.com" class="fab fa-twitter"></a> </li>
+                        <li> <a href="https://facebook.com" class="fab fa-facebook"></a> </li>
+                        <li> <a href="https://instagram.com" class="fab fa-instagram"></a> </li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright &copy; <script>document.write(new Date().getFullYear());</script> | Powered by <a href="https://ibraci.carrd.co">Ibraci</a>
+                </div>
+            </footer>
+        </div>
+        <!-- end main -->
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(window).on("scroll", function () {
+                    if ($(window).scrollTop() > 250) {
+                        $("#menu").css('background', 'white');
+                    } else {
+                        $("#menu").css('background', 'transparent');
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
